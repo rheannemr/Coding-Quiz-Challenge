@@ -32,6 +32,7 @@ function startQuiz() {
     questionContainer.classList.remove("hide");
     showQuestion(currentQuestion);
    }
+
 document.getElementById("start-button").addEventListener("click", function(){
 var timeLeft = 76;
 var interval = setInterval(function(){
@@ -43,6 +44,7 @@ var interval = setInterval(function(){
     document.getElementById('count').innerHTML= 'Times up!';
   }
 }, 1000);
+
 nextQuestion();
 });
 const nextQuestion = () => {
