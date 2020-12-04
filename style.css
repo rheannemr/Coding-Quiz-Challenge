@@ -1,0 +1,18 @@
+/* Box size for all elements */
+*, ::before, *::after {
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
